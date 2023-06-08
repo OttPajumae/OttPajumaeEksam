@@ -110,7 +110,7 @@ div {
 
 p{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 } 
 a{
     color: white;
@@ -296,6 +296,7 @@ a:hover {
     height: 150px;
     width: 150px;
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -303,11 +304,13 @@ a:hover {
   grid-column-gap: 0px;
   grid-row-gap: 10px;
   color: white;
-  background: linear-gradient(#ffffff, #ffffff) no-repeat center/2px 100%;
+  background: linear-gradient(white,white) center/2px 120% no-repeat;
   padding: 23px 0;
   margin: 50px 0;
 }
-
+@media (min-width: 600px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
 
 .grid2 {
   display: grid;
@@ -324,6 +327,13 @@ a:hover {
   background-position: left bottom;
   height: 100%;
   width: 100%;
+}
+.nepmar2{
+  background: url(/assets/testpic.png);
+  background-size: cover;
+  background-position: left bottom;
+  height: 1080px;
+  width: 1900px;
 }
  .Esection{
   margin-top: 10em;
