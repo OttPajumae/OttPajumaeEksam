@@ -308,9 +308,7 @@ a:hover {
   padding: 23px 0;
   margin: 50px 0;
 }
-@media (min-width: 600px) {
-  .grid { grid-template-columns: repeat(2, 1fr); }
-}
+
 
 .grid2 {
   display: grid;
@@ -333,7 +331,7 @@ a:hover {
   background-size: cover;
   background-position: left bottom;
   height: 1080px;
-  width: 1900px;
+  width: 1688px;
 }
  .Esection{
   margin-top: 10em;
