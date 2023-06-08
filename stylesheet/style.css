@@ -306,8 +306,9 @@ a:hover {
   background: linear-gradient(#ffffff, #ffffff) no-repeat center/2px 100%;
   padding: 23px 0;
   margin: 50px 0;
-  
 }
+
+
 .grid2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -317,18 +318,19 @@ a:hover {
   padding: 23px 0;
   margin: 50px 0;
 }
-.EmblemSection{
-  position: absolute;
-  margin-right: 3em;
-  z-index: -1;
+.rocketlaunch{
+  background: url(/assets/RocketLaunch.jpg);
   background-size: cover;
+  background-position: left bottom;
+  height: 100%;
+  width: 100%;
 }
  .Esection{
   margin-top: 10em;
  }
 .emblem{
-  margin-left: 10em;
-  margin-right: 3em;
+  width: 100%;
+  height: auto;
 }
 .cont{
   align-items: center;
@@ -347,14 +349,13 @@ a:hover {
 .Footer{
   margin-top: 4em;
 }
-.flexbox{
+.flexbox {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
   margin-left: 10em;
   padding: 50px;
 }
-
 .footerlinks{
   column-count: 1;
   column-gap: 100px;
@@ -409,7 +410,7 @@ a:hover {
 	position:relative;
 	top:1px;
 } 
-.mars{
+/*.mars{
   background-image: url(/assets/mars2.png);
   position: absolute;
   z-index: -1;
@@ -423,7 +424,7 @@ a:hover {
   margin-left: auto;
   height: 100%;
   width: 100%;
-}
+}*/
 .nepmar{
   background-image: url(/assets/testpic.png);
   background-size: contain;
